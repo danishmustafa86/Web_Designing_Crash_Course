@@ -1,0 +1,20 @@
+h1{
+    color: black ;background-color: blue;padding: 20px 20px 20px 20px;text-align:
+     center;border-color: brown;border-radius: 40px;
+    border-style: dotted;margin-bottom: 10;outline-style: dotted;outline: 10px #ede1e7f5 solid;outline-width: 20px;
+    border-width: 10px ;margin: 400;
+}
+p{
+   background-color: aqua; margin: 50px; color: brown ;border-width: 200px;border-color:yellowgreen;border-top-color: chartreuse;
+}
+h2{
+    outline-color: rgba(70, 3, 3, 0.185); background-color: blue;padding: 20px 20px 20px 20px;text-align:
+     center;border-color: brown;border-radius: 40px;
+    border-style:dotted;margin-bottom: 10;outline-style: dotted;outline: 10px #ede1e7f5 solid;outline-width: 20px;
+    border-width:20px ;margin: 50px;border-block-start-color: black;
+border-bottom-color: coral;border-bottom-right-radius: 2px;border-block-end-color:#cf1971e5;
+}
+h3{
+    outline-color: rgba(70, 3, 30, 0.185); background-color: blue;padding: 20 100 200 10;
+    width: 100px;min-height: 20px;max-height: 200px;min-width: 200px;margin:90px;
+}
