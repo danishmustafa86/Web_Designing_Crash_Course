@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+    #nav{
+        background-color:black;
+        color: white;
+        height: 7vw;
+        width: 80vw;
+top: 0;
+     padding: 2px;
+        position: fixed;
+    }
+    body{
+        height: 2000px;
+    }
+li{
+    display: inline;
+    padding: 20px;
+    margin: 30px;
+}
+
+    .main{
+background-color: #447a15;
+width: 70vw;
+height: 60vw;
+margin: auto;
+
+    }
+  .l1{
+height: 20vw;
+color: aquamarine;
+background-color: orangered;
+width: 35vw;
+position: absolute;
+bottom: 0;
+right: 0;
+
+}
+  .l2{
+    height: 20vw;
+    
+color: aquamarine;
+background-color: rgb(51, 85, 100);
+width: 35vw;
+  }
+    </style>
+</head>
+<body>
+<span> <nav id="nav"><ul>
+    <li>home</li>
+    <li>menue</li>
+    <li>about</li>
+</ul></nav></span>
+<div class="main">
+    <div class="l1">how are you</div>
+    <div class="l2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dolorem.</div>
+</div>
+</body>
+</html>
