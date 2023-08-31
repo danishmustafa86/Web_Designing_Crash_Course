@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        display: flex;
+        background-color: rgb(218, 193, 193);
+        color: black;
+        height: 200vw;
+        font-stretch: 4;
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      #how {
+        width: 13vw;
+        /* color: blac */
+        flex-basis: 80px;
+        overflow: hidden;
+
+        background-color: rgb(138, 94, 94);
+        height: 20vw;
+      }
+@media screen and (min-width:768px) and (max-width:992px) {
+    #l2 {
+        /* flex-shrink: 2; */
+        flex-basis: 50px;
+        width: 13vw;
+
+        color: aquamarine;
+        background-color: rgb(243, 7, 7);
+        overflow: hidden;
+        border: 4px solid black;
+        height: 20vw;
+      }
+}
+     
+@media screen and (min-width:502px) and (max-width:768px) {
+    #l2 {
+        /* flex-shrink: 2; */
+        flex-basis: 50px;
+        width: 13vw;
+
+        color: aquamarine;
+        background-color: rgb(105, 106, 140);
+        overflow: hidden;
+        border: 4px solid black;
+        height: 20vw;
+      }
+}
+@media screen and (min-width:300px) and (max-width:502px) {
+    #l2 {
+        /* flex-shrink: 2; */
+        flex-basis: 50px;
+        width: 13vw;
+
+        color: aquamarine;
+        background-color: rgb(60, 18, 18);
+        overflow: hidden;
+        border: 4px solid black;
+        height: 20vw;
+      }
+}
+      #l3 {
+        width: 13vw;
+        color: rgb(48, 85, 73);
+        background-color: rgb(33, 13, 13);
+        flex-grow: 0.8;
+        overflow: hidden;
+        flex-basis: 10vw;
+        height: 20vw;
+      }
+      #l4 {
+        width: 13vw;
+        overflow: hidden;
+        background-color: rgb(94, 138, 101);
+        flex-basis: content;
+        color: rgba(17, 22, 99, 0.658);
+        height: 20vw;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="how">Lorem 1 ipsum dolor sit.</div>
+      <div id="l2">Lorem 2 ipsum dolor sit.</div>
+      <div id="l3">Lorem 3 ipsum dolor sit.</div>
+      <div id="l4">Lorem 4 ipsum dolor sit.</div>
+    </div>
+  </body>
+</html>
