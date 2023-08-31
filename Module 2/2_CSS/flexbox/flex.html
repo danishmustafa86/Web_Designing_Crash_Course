@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+<style>
+header{
+    background-color: black;
+    color: white;
+    width: 100vw;
+
+    height: 5vw;
+}
+li{
+    display: inline;
+    font-size: 1em;
+    margin: 3vw;
+   
+}
+
+.d{
+    width: 20vw;
+    height: 20vw;
+    background-color: aquamarine;
+    border: 2px solid rgb(255, 0, 0);
+    z-index: 5;
+    position: relative;
+    /* bottom: 10p; */
+    /* order: ; */
+    /* float: right;
+clear: both; */
+}
+.daa{
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    background-color: aquamarine;
+    border: 2px solid rgb(255, 0, 0);
+    /* position: absolute; */
+    /* order:2 ; */
+left: 50px;
+    top: 7vw;
+}
+.da{
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    align-self: flex-end;
+    background-color: aquamarine;
+    border: 2px solid rgb(255, 0, 0);
+    /* position: absolute; */
+    /* order: ; */
+left: 50px;
+    top: 7vw;
+    /* float: left; */
+    /* clear: both;  */
+}
+#main{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* align-content: center; */
+    flex-wrap: wrap;
+    justify-content:center ;
+    /* align-items: center; */
+    height: 1100vw;
+    /* align-content: center; */
+    background-color: #cabbbb;
+}
+p{
+    background-color: blueviolet;
+color: black;
+width: 20vw;
+ display: inline-block;
+/* float: right; */
+    height: 20vw;
+    border: 2px solid rgba(196, 52, 52, 0.849);
+} 
+
+
+</style>
+</head>
+<body>
+   <header><ul>
+    <li>home</li>
+    <li>about</li>
+    <li>menue</li>
+    <li>contacts</li>
+   </ul></header> 
+   <div id="main">
+       <div class="d">welcome 1 pakistan  pakistani peopl</div>
+        <div class="daa">  welcto 2 pakist hearted</div>
+        <div class="da"> welcome 3 are very hearted</div> 
+                <p>Lorem, 4 sit ventore culpa?</p>
+            </div>
+</body>
+</html>
