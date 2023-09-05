@@ -1,0 +1,14 @@
+.mb-6{
+    margin-bottom: 7rem !important;
+}
+ .grids .box{
+    min-height: 200px;
+     
+ }  
+ @media screen and (max-width:575px) {
+
+    .grids .box{
+        max-height: 200px;
+        
+    }
+}
