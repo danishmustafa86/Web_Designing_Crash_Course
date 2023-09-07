@@ -1,0 +1,27 @@
+.faqs{
+    background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+footer{
+    height: 50px;
+}
+footer p,footer a{
+    line-height: 50px;
+}
+ .navbars{
+    z-index: 999;
+}
+.bg-img{
+    background-image: url(/images/deal2.jpg.jpg);
+    height: 400px;
+}
+.box{
+    min-height:250px
+    
+}
+.box:hover{
+border: none;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
