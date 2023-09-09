@@ -1,0 +1,89 @@
+.lbutton{
+    border-radius: 30px;
+    background-color: #FDECEC;
+    ;
+}
+.l1button{
+    border-radius: 7px;
+    background-color:rgb(235, 92, 92);
+    ;
+}
+.mt6{
+    margin-top: 150px;
+}
+.mt7{
+    margin-top: 0px;
+}
+.parano1{
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    
+}
+
+
+.card1Img1{
+    position: absolute;
+    top: 67px;
+    width: 40%;
+    left: 35%;
+}
+.card1Img2{
+    position: absolute;
+    top: 94px;
+    left: 24%;
+    width: 60%;
+}
+.card3Img1{
+    width: 62%;
+    left: 18%;
+    top: 29%;
+    position: absolute;
+}
+.card2Img1{
+    position: absolute;
+    top: 84px;
+    z-index: 1;
+    width: 27%;
+    left: 25%;
+}
+.card2Img2{
+    top: 59px;
+    width: 20%;
+    position: absolute;
+    left: 50%;
+}
+.cartoon2{
+    position: absolute;
+
+}
+.itshere{
+    position: absolute;
+    margin-left: 400px;
+margin-top: 350px;}
+.arrow{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 330px;
+}
+.collab{
+    position:absolute ;
+    width: 685px;
+    height: 280px;
+    top: 218px;
+    left: 571px;
+    
+}
+.speaker{
+    width: 160px;
+    height: 160px;
+    top: 121px;
+    left: 319px;
+    margin-left: 350px;
+    margin-top: 80px;
+
+}
