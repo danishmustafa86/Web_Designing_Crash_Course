@@ -9,10 +9,11 @@
         background-color:black;
         color: white;
         height: 7vw;
-        width: 80vw;
+        width: 90vw;
 top: 0;
-     padding: 2px;
-        position: fixed;
+padding: 2px;
+position: absolute;
+z-index: -1;
     }
     body{
         height: 2000px;
@@ -28,16 +29,18 @@ background-color: #447a15;
 width: 70vw;
 height: 60vw;
 margin: auto;
+z-index: 1;
 
+/* z-index: 3; */
     }
   .l1{
 height: 20vw;
 color: aquamarine;
 background-color: orangered;
 width: 35vw;
-position: absolute;
-bottom: 0;
+position: fixed;
 right: 0;
+z-index:0 ;
 
 }
   .l2{
@@ -46,6 +49,7 @@ right: 0;
 color: aquamarine;
 background-color: rgb(51, 85, 100);
 width: 35vw;
+
   }
     </style>
 </head>

@@ -1,0 +1,83 @@
+.mainmain{
+    background-color:rgb(76, 76, 228);
+    height: 50vw;
+    width: 100vw;
+    background-image:url(./pic1.svg),url(/pic5.svg), url(./pic3.svg)    ;
+    
+    background-position:  bottom,left bottom,cover;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 300px,300px ,cover;
+    position: absolute;
+    
+  }
+
+.class1{
+    text-decoration: none;
+    color: white;
+    margin-top: 18px;
+   margin: 20px;
+}
+#download{
+  margin-left: 200px;
+}.imagineplace{
+  margin-top: 180px;
+  margin-left: 490px;
+  margin-top: 150px;
+  font-family:serif;
+}
+.parano1{
+  color: white;
+  margin-left: 325px;
+  margin-right: 325px;
+  text-align: center;
+}
+#logodiscord{
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#loginbutton{
+  width: 5vw;
+  height: 6vh;
+border: none;   
+ border-radius: 18px;
+  margin-top: 17px;
+  margin-left:120px;
+  margin-right: 10px;
+}h1{
+margin-left:300px ;
+margin-top: 100px;
+color: white;
+font-weight: 40px;
+}
+/* #downloadwindow{ */
+  #downloadwindow{
+background-color: white;
+border: none;
+height: 5vw;
+margin-top: 50px;
+width: 24vw;
+position: absolute;
+border-radius: 30px;
+margin-left: 280px;
+}
+#opendiscord{
+  background-color:rgb(45, 41, 41);
+  border: none;
+  height: 5vw;
+  margin-top: 50px;
+  width: 24vw;
+  color: white;
+  position: absolute;
+  border-radius: 30px;
+  margin-left: 610px;
+  }
+#downloadingimage{
+  height: 1.2vw;
+}
+.mainno2{
+  width: 100vw;
+  height: 100vh;
+}.imageofoutsideboxes{
+  margin-top: 8px;
+}
